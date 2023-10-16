@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.contenitore{
+    max-width: 991px;
+    margin: 0 auto;
+}
 .immagine-sfondo{
     background-image: url(../img/pattern.png);
     background-color: lightskyblue;
@@ -11,4 +15,25 @@
 .immagine-logo{
     width: 250px ;
     padding-top: 95px;
+    padding-left: 15px;
+}
+#testata{
+    font-weight: 800;
+}
+.font-autore-pagina{
+    color: grey;
+    font-family: 'Abyssinica SIL', serif;;
+}
+#the-booleaner{
+    color: lightskyblue;
+}
+#tim-1{
+    width: 500px;
+    height: 315px;
+    padding-top: 15px;
+}
+#tim-2{
+    width: 400px;
+    padding-top: 15px;
+    height: 315px;
 }
