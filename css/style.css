@@ -82,3 +82,28 @@
 .tabella tbody tr:nth-child(even) {
     background-color: white;
 }
+#potrebbero-interessarti{
+    color: gray;
+    margin-top: 15px;
+}
+.prima-immagine-footer{
+    color: #fff;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 225px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: x-large;
+}
+.seconda-immagine-footer{
+    color: #fff;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 225px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: x-large;
+}
