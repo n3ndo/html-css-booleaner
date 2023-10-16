@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.immagine-sfondo{
+    background-image: url(../img/pattern.png);
+    background-color: lightskyblue;
+    padding-bottom: 15px;
+}
+.immagine-logo{
+    width: 250px ;
+    padding-top: 95px;
+}
