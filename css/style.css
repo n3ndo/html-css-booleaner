@@ -1,39 +1,84 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.contenitore{
+
+.contenitore {
     max-width: 991px;
     margin: 0 auto;
 }
-.immagine-sfondo{
+
+.immagine-sfondo {
     background-image: url(../img/pattern.png);
     background-color: lightskyblue;
     padding-bottom: 15px;
 }
-.immagine-logo{
-    width: 250px ;
+
+.immagine-logo {
+    width: 250px;
     padding-top: 95px;
     padding-left: 15px;
 }
-#testata{
+
+#testata {
     font-weight: 800;
 }
-.font-autore-pagina{
+
+.font-autore-pagina {
     color: grey;
-    font-family: 'Abyssinica SIL', serif;;
+    font-family: 'Abyssinica SIL', serif;
+    ;
 }
-#the-booleaner{
+
+#the-booleaner {
     color: lightskyblue;
 }
-#tim-1{
+
+#tim-1 {
     width: 500px;
     height: 315px;
     padding-top: 15px;
 }
-#tim-2{
+
+#tim-2 {
     width: 400px;
     padding-top: 15px;
     height: 315px;
+}
+
+.image-footer {
+    font-size: small;
+}
+
+.primo-lorem {
+    padding-top: 20px;
+}
+
+.sfondo-lorem {
+    background-color: yellow;
+}
+
+.liste-non-ordinate {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.tabella {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+.tabella thead th {
+    background-color:#0784d6;
+    color: #fff;
+}
+
+.tabella tbody tr:nth-child(odd) {
+    background-color: lightskyblue;
+}
+
+.tabella tbody tr:nth-child(even) {
+    background-color: white;
 }
